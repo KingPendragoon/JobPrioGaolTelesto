@@ -24,6 +24,8 @@ In triggernometry it is configured under "Options > Edit Configuration > Final F
 **Testing**
 Make sure telesto is on /telesto 
 
+![alt text](https://github.com/KingPendragoon/JobPrioGaolTelesto/blob/main/Telesto.png?raw=true)
+
 If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text make sure the line ends with a line break `|`
 
 **You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
