@@ -229,7 +229,7 @@
         <Condition Enabled="false" Grouping="Or" />
         <Conditions />
       </Trigger>
-      <Trigger Enabled="true" IsReadme="True" Name="$$README: V1.31-T$$ " Id="607e9624-bc83-49d9-af48-c21fbed8fc19" RegularExpression="https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md" Description="Refer to the following link for instructions on how to setup, test, and modify the triggers.  Triggers must be in Local Triggers folder to modify. &#xD;&#xA;https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md">
+      <Trigger Enabled="true" IsReadme="True" Name="$$README: V1.31-T$$ " Id="607e9624-bc83-49d9-af48-c21fbed8fc19" RegularExpression="https://github.com/KingPendragoon/JobPrioGaolTelesto/blob/main/README.md" Description="Refer to the following link for instructions on how to setup, test, and modify the triggers.  Triggers must be in Local Triggers folder to modify. &#xD;&#xA;https://github.com/KingPendragoon/JobPrioGaolTelesto/blob/main/README.md">
         <Actions />
         <Condition Enabled="false" Grouping="Or" />
         <Conditions />
