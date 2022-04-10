@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="7ee8e24c-8627-4e54-b77f-e19a6f2de12b" Name="JobPrioGaolTelesto" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Sequential="True" Name="Job2Priority" Id="e71a4e0e-8129-433f-ae42-1596b701ddc4" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Job2Prio">
+        <Actions>
+          <Action OrderNumber="1" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="01${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="RPR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="02${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="MNK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="03${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="DRG" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="04${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="NIN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="05${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="SAM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="06${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="PLD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="07${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="WAR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="08${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="DRK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="09${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="GNB" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="10" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="10${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="BRD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="11" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="11${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="MCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="12" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="12${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="DNC" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="13" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="13${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="BLM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="14" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="14${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="SMN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="15" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="15${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="RDM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="16" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="16${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="WHM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="17" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="17${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="SCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="18" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="18${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="AST" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="19" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="19${lvar:MarkedPlayersList[2]}" ListVariableIndex="2" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job2}" ExpressionTypeL="String" ExpressionR="SGE" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="84c2f1eb-7bfe-4756-b496-fc4f5c39ec04" TriggerForce="regexp" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="MarkerPriority" Id="ae455a48-2f76-415e-8574-a611508b7d72" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="MarkerPrio">
+        <Actions>
+          <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="JobPrio" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" VariableOp="SetString" VariableName="Marker1Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[1]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" VariableOp="SetString" VariableName="Marker2Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[2]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" VariableOp="SetString" VariableName="Marker3Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[3]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" LogMessageText="Marker1 ${func:substring(2):${lvar:JobPrio[1]}}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" LogMessageText="Marker2 ${func:substring(2):${lvar:JobPrio[2]}}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="7" LogMessageText="Marker3 ${func:substring(2):${lvar:JobPrio[3]}}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="8" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="bb9c4d27-2056-429e-bb94-be72cf26f4fc" TriggerForce="regexp" ActionType="Trigger" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:Marker1Priority}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+              <ConditionSingle Enabled="true" ExpressionL="${evar:Marker2Priority}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+              <ConditionSingle Enabled="true" ExpressionL="${evar:Marker3Priority}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="Mark1" Id="bb9c4d27-2056-429e-bb94-be72cf26f4fc" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Mark1">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;1&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F1}" KeyPressCode="112" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 1" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;2&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F2}" KeyPressCode="113" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 2" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;3&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F3}" KeyPressCode="114" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 3" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;4&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F4}" KeyPressCode="115" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 4" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;5&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F5}" KeyPressCode="116" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 5" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;6&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F6}" KeyPressCode="117" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 6" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;7&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F7}" KeyPressCode="118" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 7" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;8&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F8}" KeyPressCode="119" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 8" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker1Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ab1ddb48-aa39-45d5-8870-bfa6f1cc0fb4" TriggerText="Mark2$$Fire" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="250">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="10" LogMessageText="Marker1 ${var:Marker1Priority}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" Name="WipeResetGaolVar" Id="b6d2dc02-6d7d-411b-b4a0-ec19770e6e6b" RegularExpression="^33\|[^|]*\|[^|]*\|400000(?&gt;03|10)\|">
+        <Actions>
+          <Action OrderNumber="1" ListVariableName="ListCount" VariableName="Job1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" ListVariableName="ListCount" VariableName="Job2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" ListVariableName="ListCount" VariableName="Job3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" ListVariableName="ListCount" VariableName="Marker1Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" ListVariableName="ListCount" VariableName="Marker2Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" ListVariableName="ListCount" VariableName="Marker3Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="7" VariableName="Counter" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="8" ListVariableName="MarkedPlayersList" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="9" ListVariableName="JobPrio" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="10" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;1&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;2&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;3&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;4&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;5&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;6&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;7&gt;&quot;}},&#xD;&#xA;	{&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk clear &lt;8&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="120" KeyPressWindow="FINAL FANTASY XIV" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" IsReadme="True" Name="$$README: V1.31-T$$ " Id="607e9624-bc83-49d9-af48-c21fbed8fc19" RegularExpression="https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md" Description="Refer to the following link for instructions on how to setup, test, and modify the triggers.  Triggers must be in Local Triggers folder to modify. &#xD;&#xA;https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md">
+        <Actions />
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" Name="Players and Jobs" Id="9ca80cc8-85e8-4adb-a968-358763d3240c" RegularExpression="^[0-9]{2}\|[^|]*\|[^|]*[|]{1,2}[^|❘]*[|❘]2B6[BC][|❘][^|❘]*[|❘][A-Z0-9]{8}[|❘](?&lt;name&gt;.+?(?=[A-Z]).+?(?=[A-Z|❘])).+?(?=|❘)" MutexToCapture="StartStop">
+        <Actions>
+          <Action OrderNumber="1" ListVariableOp="Push" ListVariableName="MarkedPlayersList" ListVariableExpression="${name}" VariableOp="SetString" VariableName="Name1" VariableExpression="${name}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or">
+              <ConditionSingle Enabled="false" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:MarkedPlayersList[1]}" ExpressionTypeR="String" ConditionType="StringNotEqualCase" />
+              <ConditionSingle Enabled="false" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:MarkedPlayersList[2]}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+              <ConditionSingle Enabled="false" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:MarkedPlayersList[3]}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="Counter" VariableExpression="${var:Counter}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="7a7052c0-909a-4649-97a7-3307374be1e8" TriggerText="Job1Priority" TriggerForce="regexp" ActionType="Trigger" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList.size}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" LogMessageText="Player1: ${lvar:MarkedPlayersList[1]}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" LogMessageText="Player2: ${lvar:MarkedPlayersList[2]}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" LogMessageText="Player3: ${lvar:MarkedPlayersList[3]}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="7" LogMessageText="Counter: ${var:Counter}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="8" LogMessageText="Size: ${lvar:MarkedPlayersList.size}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="9" LogMessageText="${_ffxivparty[3].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="10" LogMessageText="${_ffxivparty[4].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="11" LogMessageText="${_ffxivparty[5].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="12" LogMessageText="${_ffxivparty[6].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="13" LogMessageText="${_ffxivparty[7].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="14" LogMessageText="${_ffxivparty[8].job}" LogLevel="Info" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="Job1Priority" Id="12f888d6-6f67-4897-90d9-533213baea3a" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Job1Prio">
+        <Actions>
+          <Action OrderNumber="1" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="01${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="RPR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="02${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="MNK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="03${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="DRG" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="04${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="NIN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="05${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="SAM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="06${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="PLD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="07${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="WAR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="08${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="DRK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="09${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="GNB" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="10" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="10${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="BRD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="11" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="11${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="MCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="12" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="12${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="DNC" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="13" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="13${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="BLM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="14" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="14${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="SMN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="15" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="15${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="RDM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="16" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="16${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="WHM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="17" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="17${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="SCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="18" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="18${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="AST" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="19" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="19${lvar:MarkedPlayersList[1]}" ListVariableIndex="1" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job1}" ExpressionTypeL="String" ExpressionR="SGE" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e71a4e0e-8129-433f-ae42-1596b701ddc4" TriggerForce="regexp" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="Job3Priority" Id="84c2f1eb-7bfe-4756-b496-fc4f5c39ec04" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Job3Prio">
+        <Actions>
+          <Action OrderNumber="1" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="01${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="RPR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="02${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="MNK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="03${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="DRG" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="04${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="NIN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="05${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="SAM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="06${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="PLD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="07${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="WAR" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="08${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="DRK" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="09${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="GNB" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="10" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="10${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="BRD" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="11" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="11${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="MCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="12" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="12${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="DNC" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="13" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="13${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="BLM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="14" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="14${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="SMN" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="15" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="15${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="RDM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="16" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="16${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="WHM" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="17" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="17${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="SCH" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="18" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="18${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="AST" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="19" ListVariableOp="Insert" ListVariableName="JobPrio" ListVariableExpression="19${lvar:MarkedPlayersList[3]}" ListVariableIndex="3" VariableOp="SetNumeric" VariableName="JobPrio" VariableExpression="1${lvar:MarkedPlayersList[1]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Job3}" ExpressionTypeL="String" ExpressionR="SGE" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ae455a48-2f76-415e-8574-a611508b7d72" TriggerForce="regexp" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="GetJobs" Id="7a7052c0-909a-4649-97a7-3307374be1e8" RegularExpression="" PeriodRefire="Deny" MutexToCapture="GetJobs">
+        <Actions>
+          <Action OrderNumber="1" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[1].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[2].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[3].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[4].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[5].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[6].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[7].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" VariableOp="SetString" VariableName="Job1" VariableExpression="${_ffxivparty[8].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[1].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="10" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[2].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="11" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[3].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="12" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[4].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="13" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[5].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="14" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[6].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="15" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[7].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="16" VariableOp="SetString" VariableName="Job2" VariableExpression="${_ffxivparty[8].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="17" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[1].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="18" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[2].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="19" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[3].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="20" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[4].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="21" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[5].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="22" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[6].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="23" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[7].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="24" VariableOp="SetString" VariableName="Job3" VariableExpression="${_ffxivparty[8].job}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${lvar:MarkedPlayersList[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="25" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="12f888d6-6f67-4897-90d9-533213baea3a" TriggerForce="regexp" ActionType="Trigger" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TitanVarReset" Id="b93227cf-6547-4dd2-9dca-7367ee94656e" RegularExpression="^[0-9]{2}\|(?:[^|]*)\|(?:[^|]*)\|(?:[^|]*)\|2CFD\|" PeriodRefire="Deny" RefirePeriodExpression="120000">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="b6d2dc02-6d7d-411b-b4a0-ec19770e6e6b" TriggerForce="regexp" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="Mark2" Id="ab1ddb48-aa39-45d5-8870-bfa6f1cc0fb4" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Mark2">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;1&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F1}" KeyPressCode="112" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 1" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;2&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F2}" KeyPressCode="113" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 2" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;3&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F3}" KeyPressCode="114" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 3" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;4&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F4}" KeyPressCode="115" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 4" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;5&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F5}" KeyPressCode="116" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 5" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;6&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F6}" KeyPressCode="117" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 6" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;7&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F7}" KeyPressCode="118" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 7" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;8&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F8}" KeyPressCode="119" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 8" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker2Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a5598e73-010c-4aef-85a4-3d7bfae01871" TriggerText="Mark2$$Fire" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="250">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="Mark3" Id="a5598e73-010c-4aef-85a4-3d7bfae01871" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000" MutexToCapture="Mark3">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;1&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F1}" KeyPressCode="112" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 1" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="2" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;2&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F2}" KeyPressCode="113" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 2" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="3" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;3&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F3}" KeyPressCode="114" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 3" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;4&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F4}" KeyPressCode="115" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 4" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;5&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F5}" KeyPressCode="116" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 5" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;6&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F6}" KeyPressCode="117" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 6" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;7&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F7}" KeyPressCode="118" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 7" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" JsonEndpointExpression="http://localhost:51323/" JsonPayloadExpression="{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;type&quot;: &quot;Bundle&quot;, &quot;payload&quot;: [&#xD;&#xA; {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;type&quot;: &quot;ExecuteCommand&quot;, &quot;payload&quot;: {&quot;command&quot;: &quot;/mk attack &lt;8&gt;&quot;}}&#xD;&#xA;]}" KeypressType="WindowMessage" KeyPressExpression="{F8}" KeyPressCode="119" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson" Description="Mark Player 8" DescriptionOverride="True">
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="b6d2dc02-6d7d-411b-b4a0-ec19770e6e6b" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="10000">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
